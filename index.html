@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <header class="sticky-top bg-white shadow-sm">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Images/Logo.png" alt="Logo"></a>
+            <button class="navbar-toggler border-0 shadow-none " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+              <ul class="navbar-nav  m-auto mb-2 mb-lg-0 d-flex gap-4  ">
+                <li class="nav-item">
+                  <a style="color: #5E3BEE;" class="nav-link active" aria-current="page" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#About_me">About me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Testimonials">Testimonials</a>
+                </li>
+              </ul>
+              <button class=" btn-outline-info" type="submit"><a href="#Contact">Contact Me</a></button>
+            </div>
+            
+          </div>
+        </nav>
+    </header>
+    <main>
+      <section class="hero" id="Home">
+       <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 flex-column justify-content-center px-0" data-aos="fade-right">
+            <div class="hero_text">
+              <h6>Hey, I am John</h6>
+              <h1>I create <span style="color: #5E3BEE;" > product design </span>and brand experience</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              <button type="button" class="button">Get In Touch</button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center" data-aos="fade-left">
+            <div class="hero_image">
+              <img class="w-100" src="Images/hero.png" alt="Hero_Image">
+            </div>
+          </div>
+        </div>
+       </div>
+      </section>
+      <section class="hero_2">
+        <div class="container-fluid">
+          <div class="row">
+            <div class=" skill col-xxl-12 ">
+              <h6>My skill</h6>
+              <h1>My Expertise</h1>
+            </div>
+          </div>
+          <div class="row "data-aos="slide-right">
+            <div class="col-xxl-3 col-xl-6 col-lg-6 col-md-12 my_skill">
+              <div class="card skill_card">
+                <img src="Images/Strategy & Direction.png" class="card-img-top" alt="Strategy & Direction">
+                <div class="card-body">
+                  <h5 class="card-title">Strategy & Direction</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-6 col-lg-6 col-md-12 my_skill">
+              <div class="card skill_card">
+                <img src="Images/Branding & Logo.png" class="card-img-top" alt="Branding & Logo">
+                <div class="card-body">
+                  <h5 class="card-title">Branding & Logo</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-6 col-lg-6 col-md-12 my_skill">
+              <div class="card skill_card">
+                <img src="Images/UI & UX Design.png" class="card-img-top" alt="UI & UX Design">
+                <div class="card-body">
+                  <h5 class="card-title">UI & UX Design</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-6 col-lg-6 col-md-12 my_skill">
+              <div class="card skill_card">
+                <img src="Images/Webflow Development.png" class="card-img-top" alt="Webflow Development">
+                <div class="card-body">
+                  <h5 class="card-title">Webflow Development</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about_me" id="About_me">
+          <div class="row">
+            <div class=" about_image col-xxl-6 col-xl-6 col-md-12" data-aos="fade-right">
+              <img class="w-100" src="Images/About Me.png" alt="About me">
+            </div>
+            <div class=" about_text col-xxl-6 col-xl-6 col-md-12" data-aos="fade-left">
+            <h6>About</h6>
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</p>
+            <p>Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>    
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="Portfolio">
+        <div class="row my-5">
+          <div class=" portfolio_text col-xxl-12 d-flex justify-content-between">
+            <div>
+              <h6>Recent Projects</h6>
+              <h1>My Portfolio</h1>
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary"> <a href="#"> <span><img src="Images/Social icon.png" alt=""></span></a>Visit My Dribbble</button>
+            </div>
+          </div>
+        </div>
+        <div class="row" data-aos="slide-up">
+          <div class="col-xxl-4 col-md-4 col-sm-12 col-12 ">
+            <div class="card border-0 shadow-lg portfolio_card ">
+              <img src="Images/Placeholder/Image.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ahuse</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.   </p>
+                <a href="#" class="btn p-0 fs-3 fw-bold rounded-0" style="border-bottom: 2px solid #5E3BEE;"><p class="mb-0" >View In Dribbble <span class="arrow"><img src="Images/Vector.png" alt="arrow"></span> </p></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-md-4 col-sm-12 col-12 ">
+            <div class="card border-0 shadow-lg portfolio_card ">
+              <img src="Images/Placeholder/Image-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">App Dash board</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.   </p>
+                <a href="#" class="btn p-0 fs-3 fw-bold rounded-0 " style="border-bottom: 2px solid #5E3BEE;"><p class="mb-0" >View In Dribbble <span class="arrow" ><img src="Images/Vector.png" alt="arrow"></span> </p></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-md-4 col-sm-12 col-12 ">
+            <div class="card border-0 shadow-lg portfolio_card ">
+              <img src="Images/Placeholder/Image-2.png " class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Easy Rent</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.   </p>
+                <a href="#" class="btn p-0 fs-3 fw-bold rounded-0" style="border-bottom: 2px solid #5E3BEE;"><p class="mb-0" >View In Dribbble <span class="arrow" ><img src="Images/Vector.png" alt="arrow"></span> </p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonial" id="Testimonials"> 
+        <div class="row">
+          <div class="col-xxl-12 col-12 testimonial-text">
+            <h6>Clients Feedback</h6>
+            <h1>Customer Testimonials</h1>
+          </div>
+        </div>
+        <div class="row my-5" data-aos="slide-left">
+          <div class="col-xxl-4 col-md-4">
+            <div class="card bg-transparent testimonial_card p-4 my-5 ">
+              <img class="stars " class="my-2 mx-3" src="Images/Stars.png" class="card-img-top mx-3" alt="...">
+              <div class="card-body d-flex flex-column gap-3 px-0">
+                <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+                <div class="d-flex gap-2">
+                  <img  style="height: 75px; width: 75px;" src="Images/Avatar Image.png" alt="Dianne Russell">
+                  <div class=" d-flex flex-column justify-content-center p-2">
+                    <h6>Dianne Russell</h6>
+                    <p>Starbucks</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-md-4">
+            <div class="card bg-transparent testimonial_card p-4 my-5">
+              <img class="stars" class="my-2 mx-3" src="Images/Stars.png" class="card-img-top mx-3" alt="...">
+              <div class="card-body d-flex flex-column gap-3 px-0 ">
+                <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+                <div class="d-flex gap-2">
+                  <img style="height: 75px; width: 75px;" src="Images/Avatar Image-1.png" alt="Kristin Watson ">
+                  <div class=" d-flex flex-column justify-content-center p-2">
+                    <h6>Kristin Watson</h6>
+                    <p>Louis Vuitton</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-md-4">
+            <div class="card bg-transparent testimonial_card p-4 my-5 ">
+              <img class="stars" class="my-2 mx-3" src="Images/Stars.png" class="card-img-top mx-3" alt="...">
+              <div class="card-body d-flex flex-column gap-3 px-0 ">
+                <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+                <div class="d-flex gap-2">
+                  <img style="height: 75px; width: 75px;" src="Images/Avatar Image-2.png" alt="Kathryn Murphy">
+                  <div class=" d-flex flex-column justify-content-center p-2">
+                    <h6>Kathryn Murphy</h6>
+                    <p>McDonald's</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="Contact">
+        <div class="row">
+          <div class=" contact_text col-12 col-xxl-12 d-flex flex-column justify-content-center align-items-center gap-3">
+            <h6>Get In Touch</h6>
+            <h1>Contact me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xxl-12 col-md-12 d-flex justify-content-center">
+            <form class="contact-form p-4 rounded  bg-transparent">
+              <div class="row mb-3">
+                <div class="col">
+                  <label for="firstName" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="First name">
+                </div>
+                <div class="col">
+                  <label for="lastName" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="col">
+                  <label for="phone" class="form-label">Phone number</label>
+                  <input type="tel" class="form-control" id="phone" placeholder="Phone number">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="topic" class="form-label">Choose a topic</label>
+                <select id="topic" class="form-select">
+                  <option selected>Select one...</option>
+                  <option value="1">General Inquiry</option>
+                  <option value="2">Support</option>
+                  <option value="3">Feedback</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Type your message..."></textarea>
+              </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="terms">
+                <label class="form-check-label" for="terms">I accept the terms</label>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="contact_btn">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="mb-5"data-aos="fade-up" data-aos-delay="500">
+      <div class="row">
+        <div class=" footer-1st col-xxl-12 col-md-12 d-flex justify-content-between border-bottom border-dark border-2 pb-5">
+          <img src="Images/Logo.png" alt="logo" style="width: 187px; height: 40px;" >
+          <ul class="d-flex list-unstyled gap-5">
+            <li><a  class="list-unstyled text-dark text-decoration-none "  href="#Home">Home</a></li>
+            <li><a  class="list-unstyled text-dark text-decoration-none "  href="#About_me">About Me</a></li>
+            <li><a  class="list-unstyled text-dark text-decoration-none "  href="#Portfolio">Portfolio</a></li>
+            <li><a  class="list-unstyled text-dark text-decoration-none "  href="#Testimonials">Testimonials</a></li>
+            <li><a  class="list-unstyled text-dark text-decoration-none "  href="#Contact">contact </a></li>
+          </ul>
+          <div class="d-flex gap-3 fs-3">
+            <a href="#"><i class=" text-dark fa-brands fa-instagram"></i></a>
+            <a href="#"><i class=" text-dark fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class=" text-dark fa-brands fa-twitter"></i></a>
+            <a href="#"><i class=" text-dark fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class=" footer-2nd col-xxl-12 d-flex justify-content-between pt-5">
+          <p>Made with 💖 by Airdokan</p>
+          <div class="d-flex gap-4">
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>Cookies Settings</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="JS/bootstrap.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:300,
+        duration:1000,
+      });
+    </script>
+</body>
+</html>

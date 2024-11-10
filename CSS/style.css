@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif; 
+}
+
+body h6 {
+    font-size: 21.33px;
+    font-weight: 600;
+    color: #282938;
+}
+body h1{
+    font-size: 56px;
+    font-weight: bold;
+    color: #282938;
+}
+
+body h5{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+body p{
+    font-size: 21.33px;
+    font-weight: 400;
+}
+
+
+/* Nav bar */
+
+
+.btn-outline-info a{
+    text-decoration: none;
+}
+.btn-outline-info{
+    color: #5E3BEE;
+    border: 1px solid #5E3BEE;
+    transition: background-color 0.4s ease-in-out;
+    padding: 18.67px 42.67px;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.nav-link{
+    color: #1C1E53;
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+}
+.nav-link:hover{
+    color: #1C1E53;
+    border-bottom: 2px solid #1C1E53;
+    transition: border-color 0.6s ease-in-out;
+
+}
+.navbar{
+    padding: 25.33px 85.33px;
+}
+
+nav .container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Hero Section */
+.hero{
+    background-color: #F5FCFF;
+    padding: 133.33px 85.33px;
+    
+}
+.hero_text p{
+   font-size: 24px;
+   font-weight: 400;
+   margin-bottom: 32px;
+}
+.hero_text button {
+    width: fit-content;
+    font-weight: 400;
+    padding: 18.67px 42.67px;
+    background-color: #5E3BEE;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 21px;
+}
+.hero_text button:hover{
+    width: fit-content;
+    font-weight: 400;
+    padding: 18.67px 42.67px;
+    background-color: #5a3dcc;
+    color: white;
+    border-radius: 10px;
+}
+
+.hero_2{
+    padding: 149.33px 85.33px;
+}
+
+.skill h1{
+    margin-bottom: 106.67px;
+}
+
+.skill_card{
+    width: 405.33px;
+    height: 370.33px;
+    padding: 25px;
+    background-color: #F5FCFF;
+    border: none;
+    border-radius: 10px;
+}
+.skill_card:hover{
+    border-bottom: 4px solid #5E3BEE;
+}
+.skill_card img{
+    height: 80px;
+    width: 80px;
+}
+
+.skill_card {
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .skill_card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid #5E3BEE;
+  }
+
+/* About Me Section */
+.about_me{
+    padding: 133.33px 85.33px;
+}
+.about_text {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 429.5px 0px;
+
+}
+.about_text h6 {
+    font-size: 21.33px;
+    font-weight: 600;
+}
+.about_text h1 {
+    font-size: 64px;
+    font-weight: bold;
+}
+.about_text p {
+    font-size: 24px;
+    font-weight: 400;
+}
+/* Portfolio Section */
+.portfolio{
+    padding: 133.33px 85.33px;
+}
+.portfolio_text button{
+    font-size: 21.33px;
+    padding: 13.33px 21.33px;
+    background-color: #E62872;
+    border-radius: 15px;
+    border: none;
+}
+
+.portfolio_text button:hover{
+    background-color: #E62872;
+}
+
+.portfolio_text button img{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+
+}
+.portfolio_card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .portfolio_card:hover {
+    transform: scale(1.05);
+  }
+  
+  .portfolio_card .card-img-top {
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: auto;
+  }
+  
+  .portfolio_card:hover .card-img-top {
+    transform: scale(1.1); 
+    opacity: 0.9; 
+  }
+  
+  .portfolio_card .card-body {
+    padding: 20px;
+    background: #ffffff;
+    color: #000; 
+  }
+  
+  .portfolio_card .btn {
+    color: #5E3BEE;
+    border-bottom: 2px solid #5E3BEE;
+    text-decoration: none;
+  }
+  
+/* Testimonial Section */
+.testimonial{
+    padding: 149.33px 85.33px;
+    background-color: #F5FCFF ;
+}
+.testimonial_card img{
+    width: 145.67px;
+    height: 25.19px;
+}
+
+.testimonial_card {
+    border:  1px solid #006B6A;
+}
+.testimonial_card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .testimonial_card:hover {
+    transform: scale(1.02); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .testimonial_card .stars {
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonial_card:hover .stars {
+    transform: scale(1.1);
+  }
+  
+/* Contact Section */
+.contact{
+    padding: 149.33px 85.33px;
+}
+
+.contact-form{
+    width: 1024px;
+    border: none;
+   
+}
+.contact_btn{
+    padding: 18.67px 42.67px;
+    background-color: #5E3BEE;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Footer Section */
+footer{
+    padding: 106.67px 85.33px;
+    background-color: #F5FCFF;
+}

@@ -1,0 +1,663 @@
+
+@media (max-width: 575.98px) {
+  .navbar{
+    padding: 0px;
+  }
+  
+  .btn-outline-info{
+    padding: 7.67px 14.67px;
+  }
+  .navbar-brand img{
+    width: 60%;
+  }
+  /* Hero Section */
+  .hero {
+    background-color: #F5FCFF;
+    padding: 86.33px 18.33px;
+  }
+  .hero_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero_text h1{
+    font-size: 40px;
+  }
+  .hero_text p{
+    font-size: 20px;
+  }
+  .hero_image{
+    margin-top: 100px;
+  }
+  .my_skill{
+    display: flex;
+    justify-content: center;
+  }
+  .skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill h1{
+    font-size: 30px;
+  }
+  .skill_card {
+    width: 334.33px;
+    height: 334.33px;
+    padding: 25px;
+    background-color: #F5FCFF;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .skill_card h5{
+    font-size: 25px;
+  }
+  .skill_card p{
+    font-size: 20px;
+  }
+  .hero_2 {
+    padding: 77.33px 27.33px;
+  }
+  /* About Me Section */
+  .about_me {
+    padding: 0.67px 85.33px;
+  }
+  .about_text{
+    margin-top: 20px;
+    text-align: justify;
+  }
+  .about_text h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .about_text h6 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .about_text p {
+    font-size: 15px;
+  }
+  /* Portfolio Section */
+  .portfolio {
+    padding: 86.33px 30.33px;
+  }
+  .portfolio_text h1{
+    font-size: 25px;
+  }
+  .portfolio_text h6{
+    font-size: 15px;
+  }
+  .portfolio_text button {
+    font-size: 11.33px;
+    padding: 4.33px 9.33px;
+    background-color: #E62872;
+    border-radius: 15px;
+    border: none;
+}
+  .portfolio_text button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.portfolio_card h5{
+  font-size: 15px;
+}
+.portfolio_card p{
+  font-size: 12px;
+}
+.arrow img{
+  width: 10%;
+}
+.portfolio_card{
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+/* Testimonial Section */
+.testimonial-text h1{
+  font-size: 25px;
+  text-align: center;
+}
+.testimonial-text h6{
+  font-size: 20px;
+  text-align: center;
+}
+.testimonial{
+  padding: 66.33px 0.33px
+}
+.testimonial_card p{
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+.testimonial_card{
+  width: 80%;
+  margin: 0 auto;
+}
+.testimonial_card h6{
+  font-size: 18px;
+}
+.stars{
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+/* Contact Section */
+.contact {
+  padding: 95.33px 14.33px;
+}
+
+.contact_text h1{
+  font-size: 35px;
+}
+.contact_text p{
+  font-size: 18px;
+  text-align: center;
+}
+.contact_text h6{
+  line-height: 0%;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+/* Footer Section */
+footer {
+  padding: 35.67px 15.33px;
+  background-color: #F5FCFF;
+  display: flex;
+  flex-direction: column;
+}
+.footer-1st img{
+  width: 80px!important;
+  height: 20px!important;
+}
+.footer-1st ul li {
+  font-size: 12px;
+}
+.footer-1st a {
+  font-size: 12px;
+}
+.footer-2nd p {
+  font-size: 12px;
+}
+.footer-1st{
+  padding-bottom: 10px!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footer-1st ul{
+  display: flex;
+  flex-direction: column;
+  gap: 25%!important;
+  text-align: center;
+}
+.footer-2nd{
+  padding-bottom: 10px!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  }
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar{
+      padding: 0px;
+    }
+    
+    .btn-outline-info{
+      padding: 7.67px 14.67px;
+    }
+    /* Hero Section */
+    .hero {
+      background-color: #F5FCFF;
+      padding: 86.33px 18.33px;
+    }
+    .hero_text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero_text h1{
+      font-size: 54px;
+    }
+    .hero_text p{
+      font-size: 20px;
+    }
+    .hero_image{
+      margin-top: 100px;
+    }
+    .skill_card{
+      margin-left: 35px;
+      margin-bottom: 50px;
+    }
+    .hero_2 {
+      padding: 77.33px 27.33px;
+    }
+    .my_skill{
+      display: flex;
+      justify-content: center;
+    }
+    /* About Me Section */
+    .about_me {
+      padding: 0.67px 85.33px;
+    }
+    .about_text{
+      margin-top: 20px;
+    }
+    .about_text h1 {
+      font-size: 35px;
+    }
+    .about_text p {
+      font-size: 20px;
+    }
+    /* Portfolio Section */
+    .portfolio {
+      padding: 86.33px 30.33px;
+    }
+    .portfolio_text h1{
+      font-size: 25px;
+    }
+    .portfolio_text h6{
+      font-size: 15px;
+    }
+    .portfolio_text button {
+      font-size: 11.33px;
+      padding: 4.33px 9.33px;
+      background-color: #E62872;
+      border-radius: 15px;
+      border: none;
+  }
+    .portfolio_text button img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+  }
+  .portfolio_card h5{
+    font-size: 15px;
+  }
+  .portfolio_card p{
+    font-size: 12px;
+  }
+  .arrow img{
+    width: 10%;
+  }
+  .portfolio_card{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  /* Testimonial Section */
+  .testimonial{
+    padding: 66.33px 37.33px
+  }
+  .testimonial_card p{
+    font-size: 14px;
+  }
+  .testimonial_card{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .testimonial_card h6{
+    font-size: 20px;
+  }
+  footer {
+    padding: 35.67px 15.33px;
+    background-color: #F5FCFF;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-1st img{
+    width: 80px!important;
+    height: 20px!important;
+  }
+  .footer-1st ul li {
+    font-size: 12px;
+  }
+  .footer-1st a {
+    font-size: 12px;
+  }
+  .footer-2nd p {
+    font-size: 12px;
+  }
+  .footer-1st{
+    padding-bottom: 10px!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer-2nd{
+    padding-bottom: 10px!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  }
+
+ 
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar{
+      padding: 0px;
+    }
+    
+    .btn-outline-info{
+      padding: 7.67px 14.67px;
+    }
+    .hero_text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero_text h1{
+      font-size: 54px;
+    }
+    .hero_text p{
+      font-size: 20px;
+    }
+    .hero_image{
+      margin-top: 100px;
+    }
+    .skill_card{
+      margin-left: 100px;
+      margin-bottom: 50px;
+    }
+    .hero_2 {
+      padding: 50.33px 85.33px;
+    }
+    .my_skill{
+      display: flex;
+      justify-content: center;
+    }
+    .about_me {
+      padding: 0.67px 85.33px;
+    }
+    .about_text{
+      margin-top: 20px;
+    }
+    .about_text h1 {
+      font-size: 35px;
+    }
+    .about_text p {
+      font-size: 20px;
+    }
+    .portfolio {
+      padding: 86.33px 30.33px;
+    }
+    .portfolio_text h1{
+      font-size: 25px;
+    }
+    .portfolio_text h6{
+      font-size: 15px;
+    }
+    .portfolio_text button {
+      font-size: 11.33px;
+      padding: 4.33px 9.33px;
+      background-color: #E62872;
+      border-radius: 15px;
+      border: none;
+  }
+    .portfolio_text button img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+  }
+  .portfolio_card h5{
+    font-size: 15px;
+  }
+  .portfolio_card p{
+    font-size: 12px;
+  }
+  .arrow img{
+    width: 10%;
+  }
+  .testimonial{
+    padding: 66.33px 37.33px
+  }
+  .testimonial_card p{
+    font-size: 14px;
+  }
+  .testimonial_card{
+    padding: 0px!important;
+  }
+  .testimonial_card h6{
+    font-size: 20px;
+  }
+  footer {
+    padding: 35.67px 15.33px;
+    background-color: #F5FCFF;
+  }
+  .footer-1st img{
+    width: 80px!important;
+    height: 20px!important;
+  }
+  .footer-1st ul li {
+    font-size: 12px;
+  }
+  .footer-1st a {
+    font-size: 12px;
+  }
+  .footer-2nd p {
+    font-size: 12px;
+  }
+  .footer-1st{
+    padding-bottom: 10px!important;
+  }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    .navbar-brand img {
+      width: 80%;
+    }
+    .btn-outline-info{
+      padding: 8.67px 18.67px;
+    }
+    .navbar {
+      padding: 5.33px 40.33px;
+  }
+  .hero {
+    padding: 56.33px 31.33px;
+  }
+  .hero_text h6{
+    font-size: 20px;
+  }
+  .hero_text h1{
+    font-size: 40px;
+  }
+  .hero_text p{
+    font-size: 20px;
+  }
+  .hero_text button {
+    width: fit-content;
+    font-weight: 400;
+    padding: 11.67px 25.67px;
+    background-color: #5E3BEE;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 21px;
+  }
+  .hero_2 {
+    padding: 44.33px 29.33px;
+  }
+  .my_skill{
+    display: flex;
+    justify-content: center;
+  }
+  .skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill_card {
+    margin: 0px 0px 53px 28px;
+  }
+  .about_text h1{
+    font-size: 30px;
+  }
+  .about_text p{
+    font-size: 18px;
+    text-align: justify;
+  }
+  .portfolio_text h1{
+    font-size: 35px;
+  }
+  .portfolio_text button {
+    font-size: 13.33px;
+    padding: 7.33px 16.33px;
+    background-color: #E62872;
+    border-radius: 15px;
+    border: none;
+  }
+  .portfolio_text button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .portfolio_card h5{
+    font-size: 20px;
+  }
+  .portfolio_card p{
+    font-size: 15px;
+  }
+  .portfolio_card img{
+    font-size: 0px;
+  }
+  .testimonial{
+    padding: 87.33px 42.33px;
+  }
+  .testimonial_card p{
+    font-size: 18px;
+  }
+  .testimonial_card{
+    padding: 0px!important;
+  }
+  .testimonial_card h6{
+    font-size: 20px;
+  }
+  footer {
+    padding: 94.67px 0px;
+
+  }
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+  body h6 {
+      font-size: 21.33px;
+      font-weight: 600;
+      color: #282938;
+  }
+  body h1{
+      font-size: 45px;
+      font-weight: bold;
+      color: #282938;
+  }
+  
+  body h5{
+      font-size: 32px;
+      font-weight: bold;
+  }
+  
+  body p{
+      font-size: 18px;
+      font-weight: 400;
+  }
+  .hero_text p{
+    font-size: 18px;
+  }
+  .skill_card{
+    margin-left: 30px;
+    margin-bottom: 40px;
+  }
+  .skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .my_skill{
+    display: flex;
+    justify-content: center;
+  }
+  .about_image{
+    width: 50%;
+  }
+  .about_text h1 {
+    font-size: 40px;
+  }
+  .about_text p{
+    font-size: 18px;
+    text-align: justify;
+  }
+  .about_me{
+    padding: 0px 20px;
+
+  }
+  .testimonial_card h6,p{
+    font-size: 18px;
+  }
+  .contact{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  }
+
+  @media (min-width: 1400px) {
+  .skill_card{
+    width: 315px;
+    height: 315px;
+  }
+  .my_skill{
+    display: flex;
+    justify-content: center;
+  }
+  .hero_2{
+    padding: 60px 52px;
+  }
+  .hero h1{
+    font-size: 56px;
+    font-weight: bold;
+    color: #282938;
+    width: 668px;
+  }
+
+  .hero p{
+    width: 621.33px;
+  }
+  .skill_card h5{
+    font-size: 23px;
+  }
+  .skill_card p{
+    font-size: 18px;
+  }
+  .about_text p{
+    font-size:18px ;
+  }
+  .about_text h1{
+    font-size:40px ;
+    font-weight: bold;
+  }
+  .testimonial_card p{
+    font-size: 18px;
+  }
+
+  }
